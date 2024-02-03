@@ -1,0 +1,33 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lista {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.lista li {
+	margin: 25px;
+}
+
+.btn {
+	padding: 5px 10px;
+	border: none;
+	background-color: rebeccapurple;
+	color: whitesmoke;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.hide {
+	display: none;
+}
